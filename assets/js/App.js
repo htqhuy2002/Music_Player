@@ -36,62 +36,62 @@ const app = {
     {
         name: 'Bad Habits',
         singer: 'Ed Sheeran',
-        path: './assets/music/badhabits.mp3',
-        image: './assets/img/badhabits.jpg'
+        path: '/assets/music/badhabits.mp3',
+        image: '/assets/img/badhabits.jpg'
     },
     {
         name: 'Beautiful Mistake',
         singer: 'Maroon 5',
-        path: './assets/music/beautifulmistake.mp3',
-        image: './assets/img/beautifulmistake.jpg'
+        path: '/assets/music/beautifulmistake.mp3',
+        image: '/assets/img/beautifulmistake.jpg'
     },
     {
         name: 'Drag Me Down',
         singer: 'One Direction',
-        path: './assets/music/dragmedown.mp3',
-        image: './assets/img/dragmedown.jpg'
+        path: '/assets/music/dragmedown.mp3',
+        image: '/assets/img/dragmedown.jpg'
     },
     {
         name: 'Intentions',
         singer: 'Justin Bieber',
-        path: './assets/music/intentions.mp3',
-        image: './assets/img/intentions.jpg'
+        path: '/assets/music/intentions.mp3',
+        image: '/assets/img/intentions.jpg'
     },
     {
         name: 'Light Switch',
         singer: 'Charlie Puth',
-        path: './assets/music/lightswitch.mp3',
-        image: './assets/img/lightswitch.jpg'
+        path: '/assets/music/lightswitch.mp3',
+        image: '/assets/img/lightswitch.jpg'
     },
     {
         name: 'Love Yourself',
         singer: 'Justin Bieber',
-        path: './assets/music/loveyourself.mp3',
-        image: './assets/img/loveyourself.jpg'
+        path: '/assets/music/loveyourself.mp3',
+        image: '/assets/img/loveyourself.jpg'
     },
     {
         name: 'Maps',
         singer: 'Maroon 5',
-        path: './assets/music/maps.mp3',
-        image: './assets/img/maps.jpg'
+        path: '/assets/music/maps.mp3',
+        image: '/assets/img/maps.jpg'
     },
     {
         name: 'Peaches',
         singer: 'Justin Bieber',
-        path: './assets/music/Peaches.mp3',
-        image: './assets/img/Peaches.jpg'
+        path: '/assets/music/Peaches.mp3',
+        image: '/assets/img/Peaches.jpg'
     },
     {
         name: 'Senorita',
         singer: 'Shawn Mendes',
-        path: './assets/music/senorita.mp3',
-        image: './assets/img/senorita.jpg'
+        path: '/assets/music/senorita.mp3',
+        image: '/assets/img/senorita.jpg'
     },
     {
         name: 'Stitches',
         singer: 'Shawn Mendes',
-        path: './assets/music/stitches.mp3',
-        image: './assets/img/stitches.jpg'
+        path: '/assets/music/stitches.mp3',
+        image: '/assets/img/stitches.jpg'
     }
     ],
     render: function() {
