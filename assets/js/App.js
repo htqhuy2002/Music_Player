@@ -320,17 +320,21 @@ const app = {
     this.setConfig('currentIndex', this.currentIndex)
     },
     loadCurrentSong: function() {
-    heading.textContent = this.currentSong.name
-    cdThumb.style.backgroundImage = `url('${this.currentSong.image}')`
-    audio.src = this.currentSong.path
-
-    audio.addEventListener('loadedmetadata', function() {
-        const minutes = Math.floor(audio.duration / 60);
-        const seconds = Math.floor(audio.duration % 60);
-        const formatTotalTime = (minutes < 10 ? '0' : '') + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
-        toltalTime.innerText = formatTotalTime;
-    });
-    },
+        if (this.songs && this.songs.length > 0 && this.songs[this.currentIndex]) {
+          heading.textContent = this.currentSong.name;
+          cdThumb.style.backgroundImage = `url('${this.currentSong.image}')`;
+          audio.src = this.currentSong.path;
+      
+          audio.addEventListener('loadedmetadata', function() {
+            const minutes = Math.floor(audio.duration / 60);
+            const seconds = Math.floor(audio.duration % 60);
+            const formatTotalTime = (minutes < 10 ? '0' : '') + minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+            toltalTime.innerText = formatTotalTime;
+          });
+        } else {
+          console.error('Current song is undefined or songs array is empty.');
+        }
+    },      
     loadConfig: function() {
     this.isRandom = this.config.isRandom
     this.isRepeat = this.config.isRepeat
