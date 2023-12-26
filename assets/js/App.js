@@ -78,8 +78,8 @@ const app = {
     {
         name: 'Peaches',
         singer: 'Justin Bieber',
-        path: './assets/music/Peaches.mp3',
-        image: './assets/img/Peaches.jpg'
+        path: './assets/music/peaches.mp3',
+        image: './assets/img/peaches.jpg'
     },
     {
         name: 'Senorita',
